@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './ProductList.css'
-import { addItem } from './CartSlice';
 import CartItem from './CartItem';
 import { useSelector, useDispatch } from 'react-redux';
+import { addItem } from './CartSlice';
 
 function ProductList() {
     const [showCart, setShowCart] = useState(false);
